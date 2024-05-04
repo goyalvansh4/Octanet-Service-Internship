@@ -1,24 +1,35 @@
 import React from 'react'
 import Card from './Card';
+import { MdOutlineDesktopMac,MdOutlineSettings,MdOutlineChatBubbleOutline } from "react-icons/md";
+import { RiCodeBoxLine } from "react-icons/ri";
+import { SiAppium,SiTaichigraphics } from "react-icons/si";
 export const Service = () => {
   const cards=[
     {
-      title:"UX / UI Design"
+      title:"UX / UI Design",
+      icon:< MdOutlineDesktopMac/>
     },
     {
-      title:"Web Designer"
+      title:"Web Designer",
+      icon:<RiCodeBoxLine />
     },
     {
-      title:"Web Devlopment"
+      title:"Web Devlopment",
+      icon:<SiAppium />
     },
     {
-      title:"Graphic Designer"
+      title:"Graphic Designer",
+      icon:<SiTaichigraphics />
     },
     {
-      title:"Web Security"
+      title:"Web Security",
+      icon:<MdOutlineSettings />
+
     },
     {
-      title:"24/7 Support"
+      title:"24/7 Support",
+      icon:<MdOutlineChatBubbleOutline />
+
     },
   ]
   return (
@@ -29,7 +40,7 @@ export const Service = () => {
     </div>
     <div className="cards_container justify-center flex-wrap flex gap-4">
      {cards.map((item)=>{
-      return <Card title={item.title}/>
+      return <Card title={item.title} icon={item.icon}/>
      })}
     </div>
     

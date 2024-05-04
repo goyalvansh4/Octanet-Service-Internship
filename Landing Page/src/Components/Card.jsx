@@ -1,12 +1,12 @@
 import React from 'react';
-import { MdOutlineDesktopMac } from "react-icons/md";
+
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-const Cards = ({title}) => {
+const Cards = ({title,icon}) => {
   return (
     <div className="cards flex flex-col py-6 justify-center rounded-xl bg-white">
-      <div className="logo_img p-5">
-      < MdOutlineDesktopMac className="text-3xl text-[#2a52c3] bg-white" />
+      <div className="logo_img p-5 text-3xl text-[#2a52c3] bg-white">
+        {icon}
       </div>
       <div className="service_content flex flex-col gap-2 px-5 py-2">
         <div className="title">
