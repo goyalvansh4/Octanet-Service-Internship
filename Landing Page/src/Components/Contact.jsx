@@ -6,7 +6,7 @@ import Details from './Details';
 
 const Contact = () => {
   return (
-    <section className="contact_container flex flex-col gap-12 items-center">
+    <section  className="contact_container flex flex-col gap-12 items-center">
        <div className="contact_head flex flex-col gap-5 "> 
     <h3 className="text-3xl font-bold text-center">Get In Touch!</h3>
     <p className="text-md font-normal leading-relaxed">Obviously Im a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>

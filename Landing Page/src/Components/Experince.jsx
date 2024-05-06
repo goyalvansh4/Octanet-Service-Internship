@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experince = () => {
   return (
-    <section className="experince flex flex-col gap-5 p-5 items-center">
+    <section id='experince' className="experince flex flex-col gap-5  items-center">
         <div className="expr_head text-center flex flex-col gap-4">
           <h4 className="text-3xl font-bold">Work Experience</h4>
           <p className="text-md font-normal leading-relaxed">Obviously Im a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>

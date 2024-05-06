@@ -55,7 +55,7 @@ const Projects = () => {
   ]
 
   return (
-    <section className="projects flex flex-col gap-7 items-center justify-center bg-[#f8f9fc]">
+    <section id="work" className="projects flex flex-col gap-7 items-center justify-center bg-[#f8f9fc]">
     <div className="project_head flex flex-col gap-5 "> 
     <h3 className="text-3xl font-bold">My Projects</h3>
     <p className="text-md font-normal leading-relaxed">Obviously Im a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>

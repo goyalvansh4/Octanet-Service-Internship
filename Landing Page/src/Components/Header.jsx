@@ -12,11 +12,11 @@ const Header = ()=>{
   }, []);
    
   return(
-  <header className='w-100 flex justify-center '>
+  <header id="home" className='w-100 flex justify-center '>
       <div className="hero_content gap-5 absolute flex flex-col justify-center p-2">
             <h3 className='text-lg font-bold'>Im Professional Frontend Developer</h3>
             <h4 className='text-base leading-8 font-light'>Obviously Im a Web Designer.<br/> Web Developer and Designer with over 1 years of experience.</h4>
-            <button className="btn btn-primary">Hire Me</button>
+            <a download href="./Vansh Gupta Latest.pdf"  className="btn btn-primary text-center text-xl text-[#fff]">Download CV</a>
         </div>
         {/* <div className="bg-img-color flex justify-center items-center"></div> */}
        <div className="container flex items-end justify-center p-2 gap-x-2.5"  >

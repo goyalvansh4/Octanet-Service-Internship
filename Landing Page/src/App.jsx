@@ -9,20 +9,23 @@ import HireMe from "./Components/HireMe";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import { Outlet } from "react-router-dom";
 
 
-function App() {
+function  App() {
   return (
     <>
        <Navbar />
-       <Header id="home" />
-       <About id="About" />
-       <Service id="Service" />
-       <Experince id="Experince" />
+       <Outlet>
+       <Header/>
+       <About  />
+       <Service  />
+       <Experince />
        <section className="hire_me"></section>
-       <HireMe/>
+       <HireMe  />
        <Projects />
-       <Contact/>
+       <Contact />
+       </Outlet>
        <Footer/>
     </>
   );

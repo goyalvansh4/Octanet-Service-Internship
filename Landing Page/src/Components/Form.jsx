@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <form className="flex flex-col gap-4">
-      <div className="flex gap-1 items-center">
+      <div className="flex gap-1 user_info items-center">
       <label  className="form-label">
         Your Name <span  className="text-danger">*</span>
       </label>

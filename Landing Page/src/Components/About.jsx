@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="flex  w-100 gap-6  about_me  justify-center">
+    <section id="about" className="flex  w-100 gap-6  about_me  justify-center">
       <div className="about_image shadow img-fluid"></div>
       <div className="about_myself justify-center flex flex-col gap-2">
         <span className="text-xs text-blue-700">About Me</span>
