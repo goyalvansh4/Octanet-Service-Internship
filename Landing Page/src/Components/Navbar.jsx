@@ -26,6 +26,9 @@ const Navbar = () => {
           <li>
             <NavLink to="/work" >Works</NavLink>
           </li>
+          <li className="hire">
+            <NavLink  to="/hire" >HireMe</NavLink>
+          </li>
           <li>
             <NavLink  to="/contact">Contact</NavLink>
           </li>

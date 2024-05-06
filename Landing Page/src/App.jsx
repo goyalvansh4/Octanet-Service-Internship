@@ -21,7 +21,7 @@ function  App() {
        <About  />
        <Service  />
        <Experince />
-       <section className="hire_me"></section>
+       {/* <section className="hire_me"></section> */}
        <HireMe  />
        <Projects />
        <Contact />

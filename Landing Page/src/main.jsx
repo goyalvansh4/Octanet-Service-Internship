@@ -11,6 +11,7 @@ import Header from './Components/Header.jsx';
 import Experince from './Components/Experince.jsx';
 import Projects from './Components/Projects.jsx';
 import Contact from './Components/Contact.jsx';
+import HireMe from './Components/HireMe.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/work",
         element: <Projects/>,
+      },
+      {
+        path: "/hire",
+        element: <HireMe/>,
       },
       {
         path: "/contact",
