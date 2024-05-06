@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="logo">
           <h2 className='text-2xl uppercase'>Portfolio</h2>
         </div>
-        <ul className='flex  max-[750px]:hidden gap-x-7 items-center uppercase'>
+        <ul className='list flex  max-[750px]:hidden gap-x-7 items-center uppercase'>
           <li className='list-none '>
             <a className='no-underline' href="#">Home</a>
           </li>

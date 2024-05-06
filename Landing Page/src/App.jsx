@@ -7,17 +7,23 @@ import Service from "./Components/Service";
 import Experince from "./Components/Experince";
 import HireMe from "./Components/HireMe";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+
+
 function App() {
   return (
     <>
        <Navbar />
-       <Header />
-       <About />
-       <Service />
-       <Experince />
+       <Header id="home" />
+       <About id="About" />
+       <Service id="Service" />
+       <Experince id="Experince" />
        <section className="hire_me"></section>
        <HireMe/>
        <Projects />
+       <Contact/>
+       <Footer/>
     </>
   );
 }
